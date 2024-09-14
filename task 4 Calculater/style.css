@@ -1,0 +1,56 @@
+body {
+			background-color: #000;
+		}
+
+		.container {
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			border: 7px solid #000;
+			border-radius: 15px;
+			padding: 15px;
+			background-color: rgb(228, 238, 224);
+		}
+
+		input {
+			width: 75px;
+			height: 60px;
+			font-size: 25px;
+			margin-top: 4px;
+			background-color: #a4a1a1;
+			font-weight: bold;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input:active {
+			background-color: rgb(159, 174, 251);
+		}
+
+		.search {
+			width: 300px;
+			height: 50px;
+			text-align: right;
+			padding-right: 10px;
+			font-size: 30px;
+			margin-bottom: -9px;
+			border-radius: 10px;
+
+		}
+
+		h1 {
+			top: 10%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			font-size: 40px;
+		}
+
+		.eql {
+			background-color: rgb(149, 205, 240);
+		}
+
+		h1 {
+			color: #fff;
+		}
